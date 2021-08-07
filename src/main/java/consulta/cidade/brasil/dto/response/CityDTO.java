@@ -2,8 +2,7 @@ package consulta.cidade.brasil.dto.response;
 
 public class CityDTO {
 
-	private Long id;
-	
+	private Long id;	
 	private String name;
 	private Integer uf;
 	private Integer ibge;
