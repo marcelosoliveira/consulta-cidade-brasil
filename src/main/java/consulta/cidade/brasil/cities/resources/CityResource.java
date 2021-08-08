@@ -27,6 +27,11 @@ public class CityResource {
 	@Autowired
 	private CityRepository repository;
 
+	public CityResource(CityRepository repository) {
+	super();
+	this.repository = repository;
+}
+
 	/*
 	 * 1st
 	 * 
