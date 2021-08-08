@@ -1,1 +1,1 @@
-web: java -jar -Dspring.profiles.active=heroku
+web: java -jar -D spring.profiles.active=heroku
