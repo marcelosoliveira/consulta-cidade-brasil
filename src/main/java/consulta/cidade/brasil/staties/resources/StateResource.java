@@ -17,7 +17,7 @@ import consulta.cidade.brasil.staties.entities.State;
 import consulta.cidade.brasil.staties.repositories.StateRepository;
 
 @RestController
-@RequestMapping("/staties")
+@RequestMapping("/api/v1/staties")
 public class StateResource {
 
   private final StateRepository repository;

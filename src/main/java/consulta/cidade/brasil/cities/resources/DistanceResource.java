@@ -11,7 +11,7 @@ import consulta.cidade.brasil.cities.service.DistanceService;
 import consulta.cidade.brasil.cities.service.EarthRadius;
 
 @RestController
-@RequestMapping("/distances")
+@RequestMapping("/api/v1/distances")
 public class DistanceResource {
 
   Logger log = LoggerFactory.getLogger(DistanceResource.class);

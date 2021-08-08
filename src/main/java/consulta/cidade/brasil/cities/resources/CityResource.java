@@ -19,7 +19,7 @@ import consulta.cidade.brasil.cities.entities.City;
 import consulta.cidade.brasil.cities.repositories.CityRepository;
 
 @RestController
-@RequestMapping("/cities")
+@RequestMapping("/api/v1/cities")
 public class CityResource {
 
 //  private final CidadeMapper cidadeMapper = CidadeMapper.INSTANCE;

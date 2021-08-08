@@ -2,6 +2,7 @@
 
 * Api construída para calcular a distânci de uma cidade para outra qualquer, utilizando a longitude e latitude.
 * Foi implementado a tratativa de exceções e mapeamento de objetos.
+* Foi feita a documentação da API com o swagger.
 
 ## Requirements
 

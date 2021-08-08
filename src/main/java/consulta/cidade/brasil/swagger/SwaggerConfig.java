@@ -11,6 +11,8 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+import static springfox.documentation.builders.PathSelectors.regex;
+
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig extends WebMvcConfigurationSupport {
@@ -20,6 +22,7 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
     return new Docket(DocumentationType.SWAGGER_2)
         .select()
         .apis(RequestHandlerSelectors.basePackage("consulta.cidade.brasil"))
+        .paths(regex("/api/v1.*"))
         .build()
         .apiInfo(metaData());
 
