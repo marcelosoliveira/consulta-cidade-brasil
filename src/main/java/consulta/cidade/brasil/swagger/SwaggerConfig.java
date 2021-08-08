@@ -37,7 +37,7 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
   private ApiInfo metaData() {
     return new ApiInfoBuilder()
         .title("Consulta de Cidades do Brasil")
-        .description("API para consultas da distância entre cidades do Brasil")
+        .description("API para consulta de distância entre duas cidades do Brasil")
         .version("1.0.0")
         .contact(new Contact("Marcelo dos Santos de Oliveira",
                 "https://www.linkedin.com/in/marcelofullstack/",
